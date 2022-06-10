@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "82fe682f-799f-44c6-b5a0-356426b12f68",
+		"name": "CRUD PUT",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21410145"
+	},
+	"item": [
+		{
+			"name": "{{url}}/api/users/2",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Rachana\",\r\n    \"job\": \"Test Engineer\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/api/users/2",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"users",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
